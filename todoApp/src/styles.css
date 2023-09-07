@@ -4,8 +4,8 @@
 }
 
 body {
-  background: #333;
-  color: hsl(200, 100%, 90%);
+  background: #2b2727;
+  color: hsl(0, 0%, 59%);
   max-width: 400px;
   padding: 1rem;
   margin: 0 auto;
@@ -24,9 +24,9 @@ body {
 }
 
 .btn {
-  background: hsl(200, 100%, 50%, 0.1);
-  border: 1px solid hsl(200, 100%, 50%);
-  color: hsl(200, 100%, 50%);
+  background: hsla(198, 71%, 3%, 0.1);
+  border: 1px solid hsl(162, 100%, 51%);
+  color: hsl(123, 100%, 50%);
   padding: 0.25em 0.5em;
   border-radius: 0.25em;
   cursor: pointer;
@@ -99,7 +99,7 @@ body {
 }
 
 .list li:has(input:focus-visible) label {
-  outline: 1px solid hsl(200, 100%, 50%);
+  outline: 1px solid hsl(0, 0%, 0%);
 }
 
 .list li input {
@@ -130,7 +130,7 @@ body {
 .list li:has(input:checked) label::before {
   content: "✔";
   background: hsl(200, 100%, 40%);
-  color: hsl(200, 100%, 90%);
+  color: hsl(0, 0%, 100%);
   font-size: 0.75rem;
   font-weight: bold;
 }
